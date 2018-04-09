@@ -71,7 +71,8 @@ for your LDAP installation:
 
         ADLDAP_AUTH_APP_OU="Application Org Unit"
 
-        ADLDAP_BASEDN="ou=${ADLDAP_AUTH_APP_OU},dc=rroyce,dc=com"
+        ADLDAP_BASEDN_WITHOUT_OU="dc=rroycedev,dc=trads,dc=com"
+        ADLDAP_BASEDN="ou=${ADLDAP_AUTH_APP_OU},${ADLDAP_BASEDN_WITHOUT_OU}"
         ADLDAP_ACCOUNT_PREFIX="cn="
         ADLDAP_ACCOUNT_SUFFIX=",ou=${ADLDAP_AUTH_APP_OU},${ADLDAP_BASEDN}"
         ADLDAP_CONTROLLERS=10.0.0.101
@@ -79,7 +80,7 @@ for your LDAP installation:
         ADLDAP_AUTO_CONNECT=false
         ADLDAP_TIMEOUT=5
         ADLDAP_ADMIN_ACCOUNT_PREFIX="cn="
-        ADLDAP_ADMIN_ACCOUNT_SUFFIX=",dc=rroyce,dc=com"
+        ADLDAP_ADMIN_ACCOUNT_SUFFIX=",${ADLDAP_BASEDN_WITHOUT_OU}"
         ADLDAP_ADMIN_USERNAME=admin
         ADLDAP_ADMIN_PASSWORD=
         ADLDAP_USE_SSL=false
