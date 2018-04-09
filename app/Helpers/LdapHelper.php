@@ -238,7 +238,7 @@ class LdapHelper
 
         $ou = Adldap::make()->ou();
 
-        $ou->setDn("ou=" . env('ADLDAP_AUTH_APP_OU', 'App Roles') . "," . env('ADLDAP_BASEDN'));
+        $ou->setDn("ou=" . env('ADLDAP_AUTH_APP_OU', 'App Roles') . "," . env('ADLDAP_BASEDN_WITHOUT_OU'));
 
         $ou->save();
     }
