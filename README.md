@@ -1,4 +1,4 @@
-# laravel-auth-db-project
+# laravel-auth-project
 A laravel template project that allows authentication via a database or LDAP server.  This project can be used right out of the box without having to develop authentication related functionality
 
 
