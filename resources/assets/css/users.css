@@ -1,0 +1,26 @@
+
+.create-user-card {
+    width: 400px !important;
+    margin: auto !important;
+}
+.create-user-card-body {
+    width: 371px !important;
+    margin: auto !important;
+}
+
+.department-select {
+    width: 248px !important;
+}
+
+.user-create-edit-label {
+    width: 80px;
+    text-align: center;
+}
+
+span#inputGroup-sizing-sm.input-group-text {
+    padding: 0px;
+}
+
+.user-list-column {
+    line-height: 37px;
+}

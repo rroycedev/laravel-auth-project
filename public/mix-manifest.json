@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/users.css": "/css/users.css",
+    "/css/assetmgr.css": "/css/assetmgr.css",
+    "/css/modal.css": "/css/modal.css",
+    "/bootstrap-template/js/bootstrap-template.js": "/bootstrap-template/js/bootstrap-template.js",
+    "/bootstrap-template/css/bootstrap-template.css": "/bootstrap-template/css/bootstrap-template.css",
+    "/bootstrap-template/css/default-theme.css": "/bootstrap-template/css/default-theme.css"
+}
